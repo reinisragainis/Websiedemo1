@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masters Barbershop | Demo Redesign</title>
+    <meta
+      name="description"
+      content="Masters Barbershop demo redesign with modern booking flow, services, barber profiles, gallery, and local contact information."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#home">Masters <span>Barbershop</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-label="Toggle menu">☰</button>
+        <nav class="nav" id="mainNav" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#barbers">Barbers</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+          <a class="btn btn-primary" href="#book">Book Now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">Top-rated local barbershop in Georgia</p>
+          <h1>Sharp Cuts. Real Craft. Right Here in Georgia.</h1>
+          <p>
+            Book with trusted local barbers for fades, beard grooming, and clean finishes.
+            Walk-ins welcome, appointments prioritized.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#book">Book Appointment</a>
+            <a class="btn btn-secondary" href="#services">View Services</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip">
+        <div class="container trust-grid">
+          <span>⭐ 4.8 Average Local Rating</span>
+          <span>✂️ Expert Fades & Beard Grooming</span>
+          <span>📍 Convenient Georgia Location</span>
+          <span>🕒 Walk-ins Welcome</span>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Services & Pricing</p>
+            <h2>Clean, clear options with no surprises</h2>
+          </div>
+          <div class="cards four">
+            <article class="card">
+              <h3>Classic Haircut</h3>
+              <p>Precision cut and finishing style tailored to your look.</p>
+              <p class="meta">45 min · from $35</p>
+            </article>
+            <article class="card">
+              <h3>Skin Fade</h3>
+              <p>Crisp blend and edge-up for a sharp, modern finish.</p>
+              <p class="meta">50 min · from $40</p>
+            </article>
+            <article class="card">
+              <h3>Beard Trim</h3>
+              <p>Shape, trim, and line-up for clean beard definition.</p>
+              <p class="meta">30 min · from $22</p>
+            </article>
+            <article class="card">
+              <h3>Kids Cut</h3>
+              <p>Patient, detailed cuts for younger clients.</p>
+              <p class="meta">30 min · from $28</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="barbers">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Our Barbers</p>
+            <h2>Book with a specialist you can trust</h2>
+          </div>
+          <div class="cards three">
+            <article class="card profile">
+              <div class="avatar">JD</div>
+              <h3>Jay Davis</h3>
+              <p>Skin fades, tapers, and razor line work · 8 years experience.</p>
+              <a href="#book" class="text-link">Book with Jay →</a>
+            </article>
+            <article class="card profile">
+              <div class="avatar">MR</div>
+              <h3>Marcus Reed</h3>
+              <p>Classic cuts and beard sculpting · 10 years experience.</p>
+              <a href="#book" class="text-link">Book with Marcus →</a>
+            </article>
+            <article class="card profile">
+              <div class="avatar">SL</div>
+              <h3>Sam Lee</h3>
+              <p>Kids cuts and quick clean-ups · 6 years experience.</p>
+              <a href="#book" class="text-link">Book with Sam →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Gallery</p>
+            <h2>Recent cuts from our chair</h2>
+          </div>
+          <div class="gallery-grid">
+            <div class="tile">Fade</div>
+            <div class="tile">Taper</div>
+            <div class="tile">Beard</div>
+            <div class="tile">Classic</div>
+            <div class="tile">Kids</div>
+            <div class="tile">Line-up</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="reviews">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Reviews</p>
+            <h2>What clients say</h2>
+          </div>
+          <div class="cards three">
+            <blockquote class="card quote">“Best fade I’ve had in years. Fast, clean, and consistent.” <cite>— Darnell T.</cite></blockquote>
+            <blockquote class="card quote">“Booked online in less than a minute. Great service.” <cite>— Kyle M.</cite></blockquote>
+            <blockquote class="card quote">“My son loves his cuts here. Friendly team and great results.” <cite>— Erica P.</cite></blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container split">
+          <div>
+            <p class="eyebrow">Contact & Location</p>
+            <h2>Visit Masters Barbershop</h2>
+            <ul class="info-list">
+              <li><strong>Address:</strong> 123 Demo Ave, Georgia</li>
+              <li><strong>Phone:</strong> (555) 123-4567</li>
+              <li><strong>Hours:</strong> Mon–Sat 9AM–7PM · Sun 11AM–5PM</li>
+            </ul>
+          </div>
+          <div class="map-placeholder" aria-label="Map placeholder">Map Preview</div>
+        </div>
+      </section>
+
+      <section class="section book" id="book">
+        <div class="container book-wrap">
+          <div>
+            <p class="eyebrow">Book Now</p>
+            <h2>Reserve your chair in under 60 seconds</h2>
+            <p>Select service, choose your barber, and pick your time.</p>
+          </div>
+          <form class="booking-form">
+            <label>Service
+              <select>
+                <option>Classic Haircut</option>
+                <option>Skin Fade</option>
+                <option>Beard Trim</option>
+                <option>Kids Cut</option>
+              </select>
+            </label>
+            <label>Barber
+              <select>
+                <option>Any available barber</option>
+                <option>Jay Davis</option>
+                <option>Marcus Reed</option>
+                <option>Sam Lee</option>
+              </select>
+            </label>
+            <label>Preferred Time
+              <input type="text" placeholder="Friday, 3:30 PM" />
+            </label>
+            <button type="button" class="btn btn-primary">Continue Booking</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <a href="#book" class="floating-cta">Book Now</a>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 Masters Barbershop Demo</p>
+        <a href="#book">Book Now</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
